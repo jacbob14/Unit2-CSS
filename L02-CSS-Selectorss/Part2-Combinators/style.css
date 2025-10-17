@@ -21,11 +21,13 @@ body {
    - Make them slightly larger
    - Add a specific color
    Hint: Use a descendant selector
+
+
 */
-/* .main-article p { */
-   /* font-size: 18px; */
-   /* color:#2c3e50; */
-/* } */
+.main-article p {
+   font-size: 50px;
+   color: red;
+}
 
 .article-content p {
    font-size: 18px;
@@ -33,12 +35,6 @@ body {
    background-color: yellow;
 }
 
-
-/* TODO 2: Style anchor tags inside .post-footer
-   - Remove underline
-   - Add a specific color
-   - Add hover effect
-*/
 .post-footer a {
   text-decoration: none;
   background-color: white;
@@ -60,11 +56,6 @@ body {
    CHILD SELECTOR CHALLENGES
    ========================================== */
 
-/* TODO 3: Style DIRECT children of .recent-posts 
-   - Add a border between articles
-   - Ensure only direct article children are styled
-   Hint: Use child selector (>)
-*/
 .recent-posts > article {
    border-bottom: 1px solid #ecf0f1;
    padding-bottom: 15px;
@@ -94,7 +85,6 @@ body {
 
 }
 
-
 /* ==========================================
    COMBINING SELECTORS 
    Practice combining different selector types
@@ -106,6 +96,10 @@ body {
    - Give it a bold, slightly larger style
    Hint: Combine multiple selector types
 */
+
+.main-article > p {
+   font-size: 18px;
+}
 
 
 /* ==========================================
@@ -119,6 +113,10 @@ body {
    - Style them with a muted color and smaller font
 */
 
+.article-meta > p {
+   color: #ecf0f1
+   font-size 10px;
+}
 
 /* ==========================================
    OPTIONAL STYLING ENHANCEMENTS
