@@ -214,6 +214,15 @@ body {
     background-color: #f0f0f0;
 }
 
+.data-table tbody tr:nth-child(odd) {
+    background-color: white;
+}
+
+.data-table tbody tr:hover {
+    background-color:#e3f2fd;
+    cursor: pointer;
+}
+
 
 /* === FOOTER === */
 footer {
