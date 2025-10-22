@@ -1,0 +1,41 @@
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* Movie Review CSS Starter File */
+/* We'll add styles here step by step! */
+
+body {
+    background-color: #F5F5F5;
+    color: #333333;
+    font-family: 'Arial';
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2C3E50;
+    color: lightgray;
+    text-align: center;
+    padding: 40px 20px;
+    font-family: "Nunito", sans-serif;
+}
+
+.tagline {
+    font-size: 20px;
+    font-style: italic;
+    color: #be8a11;
+    margin:0;
+
+}
+
+
+/* Step 1: Colors - We'll add these together! */
+
+
+/* Step 2: Typography - Font families coming soon! */
+
+
+/* Step 3: Text styling - Sizes and spacing! */
