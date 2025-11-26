@@ -576,15 +576,47 @@ ACCESSIBILITY EXPLANATION:
     Responsive Design - Media Queries
     =================================== */
 
-.hamburger {
+
+
+.hamburger p {
     cursor: pointer;
+    color: white;
+    font-size: 50px;
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 30px;
+    margin: 0;
+    display: flex;
+    padding: 0;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
 }
 
+.hamburger a {
+    text-align: center;
+}
+
+.hamburger:hover {
+    background-color: grey;
+    border-radius: 50%;
+}
+
+.mobile-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    position: relative;
+}
 @media (max-width: 768px) {
-    /* Testing Mobile Breakpoint */
-    .hero {
-        background: linear-gradient(135deg, #44de10 0%, #1896c7 100%);
-    }
     /* Mobile Navigation */
     .main-nav {
         display: none;
