@@ -13,7 +13,6 @@
    DO NOT modify the HTML file!
    ============================================= */
 
-
 /* ===========================================
    TASK 1: Section Background & Typography (20 points)
    
@@ -150,6 +149,16 @@
 
 /* YOUR CODE FOR TASK 4 HERE: */
 
+.service-card {
+    transition: box-shadow 0.3s ease;
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+}
+
 /* ===========================================
    TASK 5: Responsive Design (20 points)
    
@@ -165,15 +174,27 @@
 
 /* YOUR CODE FOR TASK 5 HERE: */
 
+@media (max-width: 768px) {
 
+    .services-container {
+        flex-direction: column;
+    }
 
+    .section-title {
+        font-size: 28px;
+    }
+
+    .services {
+        padding: 40px 20px;
+    }
+}
 
 /* =============================================
    END OF TASKS
    
    Checklist before submitting:
-   [ ] All 5 tasks attempted
-   [ ] Semicolons after every property value
-   [ ] Tested in browser
-   [ ] Tested responsive by resizing window
+   [*] All 5 tasks attempted
+   [*] Semicolons after every property value
+   [*] Tested in browser
+   [*] Tested responsive by resizing window
    ============================================= */
